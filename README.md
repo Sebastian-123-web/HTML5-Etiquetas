@@ -57,3 +57,10 @@ git add --all
 git commit -m "cambios de la rama semana01"
 git push origin semana01
 ```
+
+## Cargar nuevas ramas
+
+```
+git fetch
+git pull
+```
