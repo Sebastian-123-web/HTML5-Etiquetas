@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+    </style>
+    <title>Tablas HTML5</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Tablas en HTML5</h1>
+            <!-- las TABLAS tienen 3 partes-->
+            <table>
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Nombre</th>
+                        <th>Numero telf.</th>
+                        <th>Opciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Guillermo</td>
+                        <td>987654321</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Eduardo</td>
+                        <td>900000000</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Eduardo</td>
+                        <td>900000000</td>
+                        <td><button>Editar</button></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+
+                </tfoot>
+            </table>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                    <th>DNI</th>
+                    <th>Estado Civil</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Guillermo</td>
+                        <td colspan="2">No existe mas Datos</td>
+                    </tr>
+                    <tr>
+                        <td>Eduardo</td>
+                        <td>75642354</td>
+                        <td rowspan="2">Soltero</td>
+                    </tr>
+                    <tr>
+                        <td>Angel</td>
+                        <td>75642354</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+    </main>    
+</body>
+</html>
