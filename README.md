@@ -22,6 +22,9 @@ git branch -M main
 
 ```
 git add --all
+```
+o
+```
 git add .
 ```
 
@@ -62,5 +65,8 @@ git push origin semana01
 
 ```
 git fetch
+```
+luego
+```
 git pull
 ```
