@@ -6,16 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS</title>
     <style>
-        h1{
-            color: gray;
-            font-size: 30px;
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+        *{
+            box-sizing: border-box;
         }
+        body{
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+        main{
+            background-color: #20252c;
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+            font-family: 'Poppins', sans-serif;
+        }
+        article{
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .video-youtube{
+            display: flex;
+            justify-content: center;
+        }
+        
     </style>
 </head>
 <body>
     <main>
         <article>
             <h1>Introduccion a CSS</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque adipisci, voluptas obcaecati quibusdam harum dolore perferendis corrupti sed maxime enim libero officiis, voluptatum totam ducimus accusamus provident itaque minus. Error.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, ad qui voluptatibus eos minima quas possimus nesciunt molestiae vero. A dolores explicabo amet, et nisi similique voluptates architecto adipisci repellat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est consectetur facere quaerat vitae excepturi corrupti, facilis aspernatur, ducimus odit maiores? Alias reiciendis harum perferendis ut dolor quam eius voluptatem.</p>
+            <div class="video-youtube">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/jNtCXuCtouM"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscree
+                    >
+                </iframe>
+            </div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni maxime perspiciatis accusamus nostrum reiciendis minus quo, laboriosam quibusdam. Reiciendis rem eveniet repudiandae recusandae eaque, nam amet ipsum ducimus blanditiis minus?</p>
         </article>
     </main>
 </body>
