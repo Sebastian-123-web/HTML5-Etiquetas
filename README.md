@@ -61,7 +61,7 @@ git commit -m "cambios de la rama semana01"
 git push origin semana01
 ```
 
-## Para clonar un repositorio
+## Para `clonar` un repositorio
 
 ```
 git clone https://github.com/Sebastian-123-web/HTML5-Etiquetas.git
