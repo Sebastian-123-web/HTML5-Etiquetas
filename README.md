@@ -61,12 +61,20 @@ git commit -m "cambios de la rama semana01"
 git push origin semana01
 ```
 
-## Cargar nuevas ramas
+## Para clonar un repositorio
+
+```
+git clone https://github.com/Sebastian-123-web/HTML5-Etiquetas.git
+```
+
+## Para descargar cambios a nivel de repositorio
 
 ```
 git fetch
 ```
-luego
+
+## Para descargar cambios `dentro de la rama`
+
 ```
-git pull
+git pull origin semana02
 ```
