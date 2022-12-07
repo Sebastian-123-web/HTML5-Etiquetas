@@ -85,3 +85,13 @@ h1{
     color: #454545;
     cursor: pointer;
 }
+.link-boton:hover{
+    background-color: rgb(12, 151, 226);
+    color: #fff;
+}
+.link-boton:active{
+    background-color: gray;
+}
+.link-boton:focus{
+    background-color: red;
+}
