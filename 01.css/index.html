@@ -7,20 +7,20 @@
     <title>CSS</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-        *{
+        * {
             box-sizing: border-box;
         }
         body{
             margin: 0;
             height: 100%;
             width: 100%;
+            background-color: #20252c;
+            font-family: 'Poppins', sans-serif;
         }
         main{
-            background-color: #20252c;
             min-height: 100vh;
             padding: 20px;
             color: #fff;
-            font-family: 'Poppins', sans-serif;
         }
         article{
             max-width: 700px;
@@ -48,10 +48,57 @@
             color: rgb(216, 216, 216);
             font-weight: 600;
         }
-        
+        .cabecera-navegacion{
+            height: 60px;
+        }
+        .menu-navegacion{
+            max-width: 800px;
+            height: 100%;
+            margin: 0 auto;
+            color: #fff;
+        }
+
+        .menu-navegacion ul{
+            height: 100%;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .logo-navegacion{
+            margin-right: auto;
+            font-size: 30px;
+        }
+        .link-navegacion{
+            margin-left: 20px;
+            cursor: pointer;
+        }
+        .link-boton{
+            background-color: #fff;
+            padding: 8px 15px;
+            border-radius: 15px;
+            border: none;
+            font-weight: 600;
+            color: #454545;
+            cursor: pointer;
+        }
+
     </style>
 </head>
 <body>
+    <header class="cabecera-navegacion">
+        <nav class="menu-navegacion">
+            <ul>
+                <li class="logo-navegacion">TuCSS</li>
+                <li class="link-navegacion">Home</li>
+                <li class="link-navegacion">Blog</li>
+                <li class="link-navegacion">
+                    <button class="link-boton">Iniciar sesión</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <article>
             <h1>Introduccion a CSS</h1>
