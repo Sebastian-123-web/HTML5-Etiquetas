@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #20252c;
+    font-family: 'Poppins', sans-serif;
+}
+
+body::before{
+    content: '';
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0 153 255/.2);
+    position: absolute;
+    top: 100px;
+    left: -50px;
+    z-index: -1;
+    filter: blur(100px); /* blur->difumina */
+}
+
+/*body::after{
+
+}*/
+
+main{
+    color: #fff;
+    min-height: 100vh;
+    position: absolute;
+}
+
+.articulo, .formulario{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.video-youtube, .imagen{
+    padding: 40px 0;
+}
+
+.video-youtube iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.imagen img{
+    display: block;
+    margin: 0 auto;
+}
+
+.referencia-link{
+    color: rgb(216, 216, 216);
+    font-weight: 600;
+}
+.referencia{
+    margin-top: 100px;
+}
+
+.cabecera-navegacion{
+    height: 60px;
+}
+.menu-navegacion{
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.menu-navegacion ul{
+    height: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.logo-navegacion{
+    margin-right: auto;
+    font-size: 30px;
+}
+.logo-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+.link-navegacion{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.link-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+.link-boton{
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 15px;
+    border: none;
+    font-weight: 600;
+    color: #454545;
+    cursor: pointer;
+}
+.link-boton:hover{
+    background-color: rgb(12, 151, 226);
+    color: #fff;
+}
+.link-boton:active{
+    background-color: gray;
+}
+.link-boton:focus{
+    background-color: red;
+}
+
+.formulario{
+    height: calc(100vh - 100px);
+    display: flex;
+    align-items: center;
+}
+
+.formulario form{
+    border: 2px solid #fff;
+    padding: 20px;
+    border-radius: 20px;
+    width: 100%;
+}
+.form-control input, textarea{
+    width: 100%;
+    border: none;
+    outline: none; /* esto hace que al darle clic al input no se ponga un borde */
+    padding: 5px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.form-control input{
+    height: 30px;
+}
+.form-control label{
+    margin-bottom: 6px;
+}
+.form-botones button{
+    display: block;
+    border: none;
+    outline: none;
+    color: #20252c;
+    background-color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-left: auto;
+}
+.form-botones button:hover{
+    background-color: rgb(12, 151, 226);
+    color: #fff;
+}
+
+#boton-whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3edb5a;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icono{
+    position: absolute;
+    min-height: 20px;
+    min-width: 20px;
+    height: 20px;
+    width: 20px;
+    right: -10px;
+    top: -3px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+
+/*#boton-whatsapp{
+    height: 100px;
+    width: 200px;
+    background-color: #3edb5a;
+    position: relative;
+}
+
+.icono{
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    position: absolute; *//* para darle posiciones fijas, pero antes su padre tiene que tener un position: relative */
+    /*top: -15px;
+    right: -15px;
+}*/
+
+
+
+.volver{
+    height: 50px;
+    width: 700px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    left: 50px;
+    color: #20252c;
+}
