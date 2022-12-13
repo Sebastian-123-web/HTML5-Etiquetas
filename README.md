@@ -82,5 +82,5 @@ git pull origin semana02
 ## Para enviar los cambios de una rama a la rama principal(main)
 Primero nos vamos a la rama principal(main) y alli ejecutamos el siguiente comando
 ```        
-$ git merge sebastian main
+$ git merge otraRama main
 ```
