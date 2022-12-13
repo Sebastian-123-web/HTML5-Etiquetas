@@ -78,3 +78,9 @@ git fetch
 ```
 git pull origin semana02
 ```
+
+## Para enviar los cambir de una rama a la rama principal(main)
+Primero nos vamos a la rama principal(main) y alli ejecutamos el siguiente comando
+```        
+$ git merge sebastian main
+```
